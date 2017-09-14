@@ -1,0 +1,131 @@
+@home-theme-color:#6a5a8c;
+
+/* home form container */
+#hf-container {
+    margin-top:50px;
+    border:5px solid @home-theme-color;
+    border-radius:10px;
+    #msg-top {
+        height:215px;
+        background-color:@home-theme-color;
+     /* #head {
+            position:relative;
+            top:15px;
+            color:white;
+            font-size:18px;
+        }
+        #sub-head {
+            position:relative;
+            color:white;
+            font-size:12px;
+            bottom:10px;
+        }                      */
+    }
+    /* home <form> tag */
+    #hf-core {
+        padding-top:20px;
+        #hftl-cont > label > span#top-lbl {
+            font-size:14px;
+            color:@home-theme-color;
+        }
+        /* home form input */
+        .hf-input {
+            border-color:@home-theme-color;
+            border-left-width:5px;
+            border-right-width:0px;
+            box-shadow:none;
+        }
+
+        .hf-input:focus {
+            border-right-width:0px;
+        }
+
+        /* home form icons */
+        .hffa-cont {
+            background-color:#fefefe;
+            border-left-width:0px;
+            border:1px solid #6a5a8c;
+        }
+        .hffa-custom {
+            position:relative;
+            background-color:#fefefe;
+            color:@home-theme-color;
+        }
+
+        #hf-submit {
+            float:right;
+        }
+    }
+    /* home form bottom link container */
+    #hfbl-cont {
+        font-size:14px;
+        overflow:auto;
+        color:@home-theme-color;
+        font-weight:600;
+    }
+    #hfbl-cont > a:first-child{
+        float:left;
+    }
+    /*
+    #hfbl-cont > a:last-child{
+        float:right;
+    }*/
+    /* home form social media links */
+    #hfsm-cont {
+        margin-top:5px;
+    }
+    #hfsm-cont > li {
+        display:inline-block;
+        list-style-type:none;
+        margin-right:5px;
+    }
+
+    #hfsm-cont > li > a {
+        color:black;
+    }
+}
+
+
+
+/* home modal overlay stylings */
+.reveal-overlay > #homeModal {
+    background-color:#6a5a8c;
+    color:white;
+    border:none;
+    .close-button {font-weight:bold;}
+    p > span:last-child {
+        display:block;
+    }
+}
+
+.warning {
+    color:red;
+    font-weight:800;
+}
+
+/* media queries */  
+
+/* iphone and other mobile devices */
+@media screen and (max-width:375px) {
+    /*
+    #hf-container #hfbl-cont > a:first-child{
+        display:block;
+        float:none;
+    }
+    #hf-container #hfbl-cont > a:last-child{
+        display:block;
+        float:none;
+    }*/
+}
+
+.table-btn {
+    position: relative;
+    bottom: 7px;
+    cursor: inherit;
+}
+
+
+#hr-logo {
+    max-height:200px;
+    padding:10px 0px 0px 0px;
+}
