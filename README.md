@@ -1,4 +1,4 @@
-# Human Resources Client Relational System
+# Client Relational Management
 <p>This project makes use of <a href="https://jquery.com/">JQuery</a> and the <a href="http://foundation.zurb.com/">Foundation CSS framework</a> for responsive design, <a href="http://lesscss.org/">Less</a> for dynamic stylesheets and <a href="http://fontawesome.io/">Font Awesome</a> for navbar icons.</p>
 
 <hr>
