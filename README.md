@@ -8,7 +8,7 @@ This project makes use of [JQuery](https://jquery.com/) and the [Foundation CSS 
 
 
 # Database
-Connect to your database with [./assets/includes/connect.php](https://github.com/kkamara/crm/blob/master/assets/includes/connect.php).
+Connect to your database with [./assets/includes/connect.php](https://github.com/kkamara/oldcrm/blob/main/assets/includes/connect.php).
 
 To setup tables with pre-filled data save the `hrcrm.sql` and run the following.
 
